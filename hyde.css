@@ -13,24 +13,6 @@
  * https://github.com/poole/hyde.
  */
 
-
-/*
- * Contents
- *
- * Global resets
- * Sidebar
- * Container
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
 html {
   font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
 }
@@ -44,7 +26,6 @@ html {
     font-size: 20px;
   }
 }
-
 
 /*
  * Sidebar
