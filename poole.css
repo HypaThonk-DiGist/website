@@ -13,28 +13,6 @@
  * https://github.com/poole/poole.
  */
 
-
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Body resets
- *
- * Update the foundational and global aspects of the page.
- */
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -112,7 +90,6 @@ p {
 strong {
   color: #303030;
 }
-
 
 /* Lists */
 ul, ol, dl {
@@ -251,8 +228,6 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-
-
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -279,34 +254,6 @@ tbody tr:nth-child(odd) th {
   margin-left:  auto;
   margin-right: auto;
 }
-
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
-}
-
 
 /*
  * Posts and pages
