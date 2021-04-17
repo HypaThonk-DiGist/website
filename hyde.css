@@ -229,3 +229,13 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/*Not quite black*/
+.theme-base-0g .sidebar{
+  background-color: #23272A;
+}
+.theme-base-0g .content a,
+.theme-base-0g .related-posts li a:hover {
+  color: #23272A
+}
+ 
