@@ -1,10 +1,18 @@
 
+@font-face {
+    font-family: 'Ikaro';
+    src: url('ikaros-regular-webfont.woff2') format('woff2'),
+         url('ikaros-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 p, h1{
-    font-family: Yanone Kaffeesatz;
+    font-family: Quantico;
     }
 header{
     text-align: center;
-    font-family: Abril Fatface; 
+    font-family: Ikaro; 
     font-size: 32px;
 }
 
@@ -14,7 +22,7 @@ main{
 }
 
 .legacy{
-    height: 100px;
+    height: 150px;
     width: 500px;
     background-color: #23272A ;
     margin-inline-start: 500px;
@@ -23,3 +31,4 @@ main{
     text-align: center;
     color: white;
 }
+ 
