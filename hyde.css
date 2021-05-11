@@ -13,8 +13,34 @@
  * https://github.com/poole/hyde.
  */
 
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+ @font-face {
+    font-family: 'Ikaro';
+    src: url('ikaros-regular-webfont.woff2') format('woff2'),
+         url('ikaros-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
-  font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+  font-family: "Quantico", Helvetica, Arial, sans-serif;
+  font-size: small;
 }
 @media (min-width: 48em) {
   html {
@@ -60,7 +86,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Ikaro", serif;
   font-size: 3.25rem;
 }
 
@@ -238,4 +264,5 @@ a.sidebar-nav-item:focus {
 .theme-base-0g .related-posts li a:hover {
   color: #23272A
 }
+
  
